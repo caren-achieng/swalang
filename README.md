@@ -1,6 +1,3 @@
-# swalang
-A simple swahili programming language 
-
 # Swahili Programming Language Compiler
 
 ## Overview
