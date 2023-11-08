@@ -20,22 +20,22 @@ Ensure you have Python installed on your system to run the compiler.
 ### Installation
 Clone the repository to your local machine using the following command:
 
-\```bash
+```bash
 git clone <repository-url>
-\```
+```
 Navigate to the project directory:
 
-\```bash
+```bash
 cd <project-directory-name>
-\```
+```
 
 ## Usage
 
 Write your source code in a text file with a `.sw` extension. Then, run the compiler with the following command:
 
-\```bash
+```bash
 python compiler.py path_to_your_file.sw
-\```
+```
 
 The compiler will tokenize, parse, and interpret the Swahili-syntax code.
 
@@ -44,56 +44,44 @@ The compiler will tokenize, parse, and interpret the Swahili-syntax code.
 ### Variables
 Declare variables with identifiers:
 
-\```sw
+```sw
 moja = 1;
 mbili = 2;
 neno = "neno";
-\```
+```
 
 ### Functions
 Create functions using the `kazi` keyword:
 
-\```sw
+```sw
 kazi myFunction(x, y) {
     andika "hello";
 }
-\```
+```
 
 ### Print Statements
 Output text to the console with `andika`:
 
-\```sw
+```sw
 andika "Jambo Dunia!";
-\```
+```
 
 ### Arithmetic Operations
 Perform basic arithmetic operations:
 
-\```sw
+```sw
 jumla = moja + mbili;
-\```
-
-### Comments
-Currently, comments are not supported in this language version.
+```
 
 ## Example Program
 
 Here's a sample program that adds two numbers and prints the result:
 
-\```sw
+```sw
 kazi jumuisha(x, y) {
   jibu = x + y;
   andika jibu;
 }
 
 jumuisha(1, 2);
-\```
-
-## Contributing
-
-Contributions to this project are welcome. Please fork the repository, add your contribution, and submit a pull request.
-
-## License
-
-This project is released under the MIT License. See the [LICENSE](LICENSE.md) file for details.
-
+```
